@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-es="Contacto - Andrés Pérez Cantero" data-en="Contact - Andrés Pérez Cantero">Contacto - Andrés Pérez Cantero</title>
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Ponte en contacto con Andrés Pérez Cantero, especialista en seguros, gestión del automotor y siniestros.">
+    <meta name="keywords" content="Contacto, Análisis de siniestros, Técnico Superior en Seguros, Gestión de seguros, Andrés Pérez Cantero">
+    <meta name="author" content="Andrés Pérez Cantero">
+    
+    <!-- Open Graph (Redes Sociales y WhatsApp) -->
+    <meta property="og:title" content="Contacto - Andrés Pérez Cantero">
+    <meta property="og:description" content="Formulario de contacto de Andrés Pérez Cantero, técnico en seguros.">
+    <meta property="og:type" content="website">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+    <header class="navbar">
+        <div class="logo">APC.</div>
+        <nav>
+            <a href="index.html" data-es="Inicio" data-en="Home">Inicio</a>
+            <a href="contact.html" class="active" data-es="Contacto" data-en="Contact">Contacto</a>
+            <div class="lang-switch">
+                <button id="btn-es" class="lang-btn active">ES</button>
+                <button id="btn-en" class="lang-btn">EN</button>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container">
+        <section class="contact-section center-flex section-animate">
+            <div class="contact-box glass-box">
+                <h1 class="gradient-text" data-es="Ponte en Contacto" data-en="Get in Touch">Ponte en Contacto</h1>
+                <p data-es="Completa el formulario a continuación para enviarme un mensaje directo." data-en="Fill out the form below to send me a direct message.">Completa el formulario a continuación para enviarme un mensaje directo.</p>
+                
+                <form action="mailto:andresperezcantero@outlook.com" method="POST" enctype="text/plain" class="contact-form">
+                    <div class="input-group">
+                        <label for="name" data-es="Nombre Completo" data-en="Full Name">Nombre Completo</label>
+                        <input type="text" id="name" name="Nombre" required placeholder="Tu nombre / Your name">
+                    </div>
+                    
+                    <div class="input-group">
+                        <label for="email" data-es="Correo Electrónico" data-en="Email Address">Correo Electrónico</label>
+                        <input type="email" id="email" name="Correo" required placeholder="tu@correo.com / your@email.com">
+                    </div>
+                    
+                    <div class="input-group">
+                        <label for="message" data-es="Mensaje" data-en="Message">Mensaje</label>
+                        <textarea id="message" name="Mensaje" rows="5" required placeholder="Escribe tu mensaje aquí... / Write your message here..."></textarea>
+                    </div>
+                    
+                    <button type="submit" class="cta-button w-full" data-es="Enviar Mensaje" data-en="Send Message">Enviar Mensaje</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <p data-es="© 2026 Andrés Pérez Cantero. Todos los derechos reservados." data-en="© 2026 Andrés Pérez Cantero. All rights reserved.">© 2026 Andrés Pérez Cantero. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
