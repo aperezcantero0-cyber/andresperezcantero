@@ -196,6 +196,13 @@ body {
     box-shadow: 0 10px 25px rgba(88, 166, 255, 0.4);
 }
 
+.cta-group {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+}
+
 .w-full {
     width: 100%;
 }
